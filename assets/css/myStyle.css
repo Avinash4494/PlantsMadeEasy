@@ -1,0 +1,993 @@
+/*PRODUCT CAROUSEL*/
+
+
+.body-content {
+    margin-top: -15px;
+}
+
+.breadcrumb i {
+    font-size: 0.8em;
+    font-weight: normal;
+    color: grey;
+}
+
+h4.productTitle {
+    color: black;
+    font-size: 1.7em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: -15px;
+}
+
+.products {
+    padding: 10px;
+}
+
+.products .product .well {
+    background-color: #EAEDED;
+    transition: 0.3s;
+    padding: 10px;
+}
+
+.product .well:hover {
+    transition: 0.5s;
+    border: 2px solid #00BCD2;
+}
+
+.productInfo h4 a {
+    color: black;
+    font-size: 1em;
+}
+
+.price {
+    color: black;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.buttonAddCart {
+    background-color: #00BCD2;
+    border-radius: 5px;
+    padding: 7px 25px;
+    border: 1px solid #00BCD2;
+    color: white;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.buttonCheckout {
+    background-color: #00BCD2;
+    border-radius: 5px;
+    padding: 7px 25px;
+    font-size: 1.3em;
+    border: 1px solid #00BCD2;
+    color: white;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.product-slider {
+    background-color: white;
+    padding: 15px;
+}
+
+.productComp .well {
+    background-color: transparent;
+    padding: 5px;
+    border: none;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.productComp .well img {
+    transition: 0.5s;
+}
+
+.productImage {
+    overflow: hidden;
+}
+
+.productComp .well a {
+    color: black;
+    transition: 0.5s;
+}
+
+.productComp .well:hover a {
+    color: #00bcd2;
+    transition: 0.3s;
+}
+
+.productComp .well:hover i {
+    color: #00BCD2;
+    transition: 0.3s;
+}
+
+.productImage:hover img {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/*PRODUCT CAROUSEL*/
+
+/*PRODUCT DETAILS*/
+
+.productDetails .well {
+    background-color: white;
+}
+
+.productInfo {
+    padding: 15px;
+    color: black;
+    padding-top: 30px;
+}
+
+.productInfo .name {
+    margin: 0px;
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.ratingReviews {
+    font-size: 1.1em;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.stockContainer,
+.priceContainer,
+.quantityContainer,
+.purchaseContainer {
+    font-size: 1.2em;
+    line-height: 30px;
+}
+
+.priceContainer .price {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.priceContainer .priceStrike {
+    font-size: 1em;
+
+    color: black;
+}
+
+.cartQuantity input {
+    margin-top: -55px;
+    position: absolute;
+    margin-left: 45px;
+    width: 60px;
+    padding-left: 15px;
+    border: 1px solid #00BCD2;
+}
+
+.cartQuantity .arrows {
+    margin-left: 100px;
+    margin-top: -7px;
+    color: #00BCD2;
+    font-size: 1.1em;
+}
+
+.expectedDelivery {
+    font-size: 1.2em;
+}
+
+.vegeterian {
+    margin-top: 35px;
+    font-size: 1.2em;
+}
+
+.vegIcon {
+    color: green;
+    padding: 1px 7px;
+    border: 5px solid green;
+}
+
+.emptyTrace {
+    margin-top: 20px;
+}
+
+.productSocial {
+    color: black;
+    margin-top: 00px;
+
+}
+
+ul.listInline li a {
+    float: left;
+    font-size: 1.4em;
+    padding: 0px 15px;
+    color: #00BCD2;
+}
+
+.buttonPannel {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.buttonWhislist {
+    background-color: #00BCD2;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    width: 100%;
+    font-size: 1.2em;
+    color: white;
+    -webkit-transition: all 0.2s linear 0s;
+    -moz-transition: all 0.2s linear 0s;
+    -ms-transition: all 0.2s linear 0s;
+    -o-transition: all 0.2s linear 0s;
+    transition: all 0.2s linear 0s;
+}
+
+.buttonAddtoCart {
+    background-color: #00BCD2;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    width: 100%;
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: white;
+    -webkit-transition: all 0.2s linear 0s;
+    -moz-transition: all 0.2s linear 0s;
+    -ms-transition: all 0.2s linear 0s;
+    -o-transition: all 0.2s linear 0s;
+    transition: all 0.2s linear 0s;
+}
+
+.reviews {
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.reviewedBy img {
+    height: 35px;
+    width: 35px;
+    margin-left: 15px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.reviewName {
+    font-size: 1.7em;
+    margin-left: -25px;
+}
+
+.textReview {
+    font-weight: bold;
+    padding: 15px 0px;
+    font-size: 1.3em;
+}
+
+.reviewTitle {
+    padding-top: 10px;
+}
+
+.productAddReview {
+
+    color: black;
+}
+
+.tableRatings th {
+    padding: 10px 20px;
+    text-align: center;
+    color: #00BCD2;
+    letter-spacing: 1px;
+}
+
+.tableRatings td {
+    padding: 10px 20px;
+    letter-spacing: 1px;
+}
+
+.ratingInput input {
+    border: 1px solid #00BCD2;
+}
+
+.ratingInput textarea {
+    border: 1px solid #00BCD2;
+}
+
+.productTabs li {
+    color: #00BCD2;
+}
+
+.productTab .text {
+    font-size: 1.3em;
+    line-height: 30px;
+    padding: 20px;
+    text-align: justify;
+}
+
+/*PRODUCT DETAILS*/
+
+/*CART DETAILS*/
+.quant-input .arrows {
+    font-size: 1.5em;
+    color: #00BCD2;
+    margin-left: -60px;
+}
+
+.quant-input {
+    width: 50px;
+}
+
+.quant-input input {
+    margin-top: -40px;
+    position: absolute;
+    width: 50px;
+    margin-left: -80px;
+    border: 1px solid #00BCD2;
+}
+
+.cartPrice {
+    text-align: right;
+}
+
+.cartPrice h4 {
+    font-size: 1.5em;
+}
+
+.cartPrice i {
+    font-size: 0.5em;
+    margin-top: 5px;
+    position: absolute;
+    margin-left: -15px;
+}
+
+.shoppingCart .well {
+    background-color: white;
+    border-radius: 0px;
+
+    padding: 15px;
+}
+
+.checkOut .well {
+    background-color: white;
+    border-radius: 0px;
+    padding: 15px;
+}
+
+.shoppingCart .well h3 {
+    margin: 0px;
+}
+
+.cartPrice {
+    font-size: 1.5em;
+    float: right;
+}
+
+.cartProduct h4 {
+    font-size: 2em;
+    margin: 0px;
+    padding-bottom: 15px;
+}
+
+.cartProduct h5 {
+    font-size: 1.2em;
+    margin: 0px;
+    padding: 5px 0px;
+}
+
+.checkBoxCart {
+    margin-top: 10px;
+    padding-top: 5px;
+}
+
+.buttonCartDelete {
+    background-color: #00BCD2;
+    border-radius: 5px;
+    padding: 7px 25px;
+    border: 1px solid #00BCD2;
+    color: white;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    width: 100%;
+    margin-top: -25px;
+}
+
+
+
+
+.shippingAddress .well {
+    padding: 10px;
+    background-color: white;
+    border-radius: 0px;
+    margin-top: -30px;
+}
+
+.moreProducts .well {
+    padding: 10px;
+    background-color: white;
+    border-radius: 0px;
+}
+
+.moreProducts .well a {}
+
+.moreProducts .well h5 {
+    margin: 0px;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.shippingAddress .well h4 {
+    margin: 0px;
+    padding: 10px;
+
+}
+
+.wishProducts .well {
+    background-color: white;
+    padding: 10px;
+}
+
+.wishProducts h5 {
+    font-size: 1.2em;
+}
+
+.wishContent {
+    padding-top: 15px;
+}
+
+.shoppingCartTab .well {
+    padding: 10px;
+    background-color: white;
+}
+
+.shoppingCartTab .well h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.shoppingCartTab .well h4 {
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+}
+
+.quant-input {
+    margin-left: 150px;
+    position: relative;
+    margin-top: -57px;
+}
+
+.quant-input i {
+    font-size: 2em;
+}
+
+.quant-input input {
+    margin-top: -58px;
+    position: absolute;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.checkOut .well .free {
+    margin: 0px;
+    padding-bottom: 15px;
+    line-height: 23px;
+    font-size: 1em;
+    padding-left: 5px;
+}
+
+.checkOut .well {
+    padding: 10px;
+}
+
+.check {
+    border-radius: 50%;
+    padding: 0px 5px;
+    color: white;
+    font-size: 0.8em;
+    margin-right: 0px;
+    margin-left: -10px;
+}
+
+.check.Tick {
+    background-color: #00BCD2;
+}
+
+.check.cross {
+    background-color: red;
+}
+
+/*CART DETAILS*/
+
+/*USER DETAILS*/
+
+.myAccount .well {
+    background-color: white;
+    padding: 10px;
+}
+
+.myAccount .panel-heading {
+    background-color: #00BCD2;
+    padding: 2px;
+    height: 42px;
+    border-radius: 0px;
+    padding-top: 5px;
+    padding-left: 5px;
+
+}
+
+.myAccount .number {
+    padding: 10px 15px;
+    color: #00BCD2;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-top: 8px;
+    background-color: white;
+}
+
+.myAccount h4 a {
+    color: white;
+}
+
+.panel-body h4 {
+    padding-left: 15px;
+}
+
+.register-form input {
+    border: 1px solid #00BCD2
+}
+
+.register-form textarea {
+    border: 1px solid #00BCD2
+}
+
+.orderHistory .well {
+    border-radius: 3px;
+    background-color: white;
+    border: 1px solid #00BCD2;
+}
+
+.orderHistory .well a {
+    color: black;
+}
+
+
+/*USER DETAILS*/
+
+/*SEARCH DETAILS*/
+.widgetHeader {
+    background-color: #00BCD2;
+    color: white;
+    padding: 8px 5px;
+}
+
+.widgetHeader h5 {
+    margin: 0px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.widgetNavigation {
+    background-color: white;
+}
+
+.widgetNavigation a {
+    color: black;
+}
+
+.lineVertical {
+    width: 100%;
+    height: 1px;
+    background-color: #00BCD2;
+}
+
+.widgetHeader img {
+    height: 15px;
+    width: 15px;
+}
+
+h5.widgetTitle {
+    margin-left: -25px;
+}
+
+/*SEARCH DETAILS*/
+/*CATEGORY TAB*/
+#categoryPannel {
+    background-color: #EAEDED;
+    height: 100%;
+    padding: 15px;
+    text-align: center;
+    color: black;
+}
+
+.categoryWell .well {
+    background-color: white;
+    padding: 0px;
+
+}
+
+/*CATEGORY TAB*/
+/*HOW IT WORKS*/
+#howItWorksPannel {
+    background-color: white;
+    height: 100%;
+    padding: 45px;
+    text-align: center;
+    color: black;
+}
+
+.howItWorks h1 {
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+
+.howItWorks h4 {
+    line-height: 25px;
+}
+
+.workSection {
+    padding: 20px;
+}
+
+.iconComp {
+    color: #00bcd2;
+    font-size: 1.7em;
+    position: relative;
+    text-align: right;
+    margin-top: -120px;
+}
+
+.workSection img {
+    height: 80px;
+    width: 140px;
+
+}
+
+/*HOW IT WORKS*/
+
+/* FOOTER PAGE*/
+.iconUp {
+    background-color: #00bcd2;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    margin-top: -70px;
+    position: absolute;
+    scroll-behavior: smooth;
+}
+
+.iconUp i {
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-left: 12px;
+    scroll-behavior: smooth;
+}
+
+.linksCard {
+    padding: 20px;
+    margin-top: 90px;
+}
+
+.linksCard h4 a {
+    color: white;
+    font-size: 0.9em;
+}
+
+#sectionFooter {
+
+    padding-top: 20px;
+    padding-bottom: 0px;
+    color: #fff;
+    margin-top: 0px;
+    background-image: url(../images/sliders/footer01.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sectionInformation {
+    padding: 40px;padding-bottom: 0px;
+}
+
+.addressCard h3 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.addressCard h5 {
+    font-size: 1.1em;
+    margin-top: -10px;
+    padding-left: 3px;
+}
+
+.addressCard h4 {
+    line-height: 25px;
+}
+
+.addressCard p {
+    font-size: 1.2em;
+    margin-top: -15px;
+    padding-bottom: 15px;
+    line-height: 25px;
+}
+
+.addressIcon {
+    background-color: #00bcd2;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.addressIcon i {
+    padding-top: 12px;
+    padding-left: 12px;
+}
+
+.helpCard h1 {
+    text-align: center;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.helpCard h4 {
+    text-align: center;
+}
+
+.helpCard a {
+    color: #00bcd2;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.copyright{margin-top: -20px;}
+
+
+/*FOOTER PAGE*/
+.icons ul a {
+    color: white;
+}
+
+.icons ul {
+
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+    margin-top: 50px;
+
+}
+
+.icons ul li {
+    list-style: none;
+    position: relative;
+    width: 100px;
+    height: 60px;
+    line-height: 50px;
+    text-align: center;
+    background-color: transparent;
+    color: #fff;
+
+    transition: .5s;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.icons ul li a:hover {
+    color: white;
+}
+
+.icons ul li span {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-20px);
+    width: 120px;
+    height: 24px;
+    line-height: 24px;
+    background-color: #00bcd2;
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+.icons ul li:hover span {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0px);
+}
+
+.icons ul li span:before {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: rotate(45deg) translateX(-50%);
+    width: 10px;
+    height: 10px;
+    background-color: #00bcd2;
+    z-index: -1;
+}
+
+/*FOOTER PAGE*/
+/*CONTACT US*/
+#sectionContactComp {
+    background-color: white;
+    padding: 40px;
+}
+
+.breadCrum {
+    padding-bottom: 15px;
+}
+
+.breadCrum h5 a {
+    color: black;
+}
+
+.breadCrum h5 span {
+    color: #00bcd2;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.breadCrum h5 i {
+    font-size: 0.8em;
+}
+
+#sectionTitle {
+
+    padding-top: 20px;
+}
+
+#sectionTitle h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#sectionTitle p {
+    text-align: center;
+    padding: 10px 0px 30px 0px;
+    line-height: 25px;
+    font-size: 1.1em;
+}
+
+.widgetQuote {
+    padding: 00px 20px 00px 20px;
+}
+
+#AllFields {
+    text-align: center;
+    color: red;
+}
+
+/*CONTACT US*/
+/*ACCOUNT*/
+.formPannelAuth a {
+    color: #00bcd2;
+    padding-top: 15px;
+}
+
+.alert-success {
+    background-color: green;
+    color: white;
+    text-align: center;
+    line-height: 10px;
+    padding: 12px;
+    margin: 0px;
+}
+
+.alert-danger {
+    background-color: red;
+    color: white;
+    text-align: center;
+    line-height: 10px;
+    padding: 12px;
+    margin: 0px;
+}
+
+.formPannelAuth h4 {
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.formPannelAuth p {
+    font-size: 1.1em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.formPannelAuth span {
+    color: red;
+}
+
+/*ACCOUNT*/
+/*ABOUT US*/
+
+.wrapperBody {
+    background-color: white;
+}
+
+.sectionPagin {
+    background-image: url(../images/sliders/slide3.jpg);
+    height: 100%;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: -30px;
+}
+.overlay
+ {
+     background-color: rgba(0,0,0,0.8);
+     position: relative;
+     height: 100%;
+     width: 100%;
+     padding: 20px;
+ }
+.emptyHead {
+    padding-top: 120px;
+}
+
+.pagigHead {
+    color: white;
+    text-align: right;
+}
+
+.pagigHead h3 {
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.pagigHead h5 {
+    color: white;
+    font-size: 1.2em;
+}
+
+.pagigHead .fa-chevron-right {
+    font-size: 0.8em;
+}
+
+.pagigHead a {
+    color: white;
+}
+
+.WrapperContainer h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.WrapperContainer p {
+    line-height: 35px;
+    font-size: 1.4em;
+    text-align: justify;
+}
+
+.WrapperContainer h1 {
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.catSection .well {
+    background-color: red;
+    padding: 0px;
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.preferredClients ul li {
+    font-size: 1.4em;
+    padding-left: 30px;
+    line-height: 35px;
+}
+
+/*ABOUT US*/

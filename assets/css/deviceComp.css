@@ -1,0 +1,101 @@
+@media screen and (max-width: 992px) {
+
+    .navbar-toggle {
+
+        background-color: white;
+        margin: 10px;
+
+        padding: 8px;
+    }
+
+    .icon-bar {
+        padding: 1px 5px;
+    }
+
+    .topLogo img {
+        margin-bottom: 5px;
+        height: 40px;
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+
+    .searchForm input {
+        padding: 5px;
+        margin-bottom: 0px;
+    }
+
+    .searchForm {
+        padding-left: 30px;
+    }
+
+    .searchForm .buttonSearch {
+        padding: 6px 5px 7px 5px;
+
+    }
+
+    .setNavigation {
+        height: 30px;
+    }
+    .setNavHead {
+        height: 30px;
+    }
+
+    .topMenu {
+        height: 100%;
+    }
+
+    .topMenu i {
+        font-size: 1.1em;
+        color: #00bcd2;
+        margin-bottom: -10px;
+    }
+
+    .topMenu a {
+        color: #00bcd2;
+    }
+    .catMenu {padding: 0px;}
+.catMenu ul li {
+    float: left;
+    padding: 5px 5px;
+    font-size: 1.1em;
+}
+.linksCard {
+        margin-top: 00px;
+        padding: 0px;
+        margin-bottom: 25px;
+    }
+
+    .helpCard .icons {
+        margin-top: -30px;
+    }
+
+    .sectionInformation {
+        padding: 0px;
+    }
+
+    .helpCard {
+        margin-top: -30px;
+    }
+
+    .helpCard h4 {
+        line-height: 20px;
+    }
+
+    .copyright h5 {
+        margin-top: -20px;
+        line-height: 25px;
+    }
+
+    .iconUp i {
+        font-size: 1.5em;
+    }
+/*NAVIGATION*/
+.productCation{
+	padding: 1px;
+	letter-spacing: 1px;
+}  
+.productCation h4{font-size: 0.7em;}
+.customCategory .well{margin-bottom: -100px;}
+#categorySection{padding-top: 15px;padding-bottom: 15px;}
+.breadCrum{margin-top: -30px;}
+}

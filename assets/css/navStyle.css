@@ -1,0 +1,116 @@
+body
+{
+    font-family: 'Athiti';
+    background-color: #EAEDED;
+}
+.setNavigation {
+    height: 70px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+.setNavHead {
+    height: 90px;
+    background-color: red;
+    margin-bottom: 30px;
+}
+.topMenu {
+    background-color: transparent;
+    height: 60px;
+
+}
+
+.topMenu ul li {
+    float: left;
+    padding: 10px 10px;
+}
+
+.topMenu .count {
+    width: 19px;
+    height: 19px;
+    color: white;
+    border-radius: 50%;
+    padding-top: 1px;
+    padding-left: 6px;
+    font-size: 1em;
+    background-color: #FE8F17;
+    margin-top: -40px;
+    margin-left: 24px;
+}
+
+.topLogo {
+    margin-top: 5px;
+}
+.topLogo img{
+    height: 50px;
+}
+.searchForm {
+    padding-top: 10px;
+}
+
+.searchForm input {
+    border: 1px solid #00BCD2;
+    padding: 20px;
+    border-radius: 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.search-button {
+    background-color: #00BCD2;
+    border: none;
+    padding: 10px 25px 11px 25px;
+    margin-left: -30px;
+    border: 1px solid #00BCD2;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.search-button i {
+    color: white;
+}
+
+.topMenus i {
+    font-size: 1.5em;
+    margin: 10px 10px;
+    color: #00BCD2;
+}
+
+nav.navbar {
+    position: fixed;
+    width: 100%;
+}
+
+.navbar {
+
+    margin-bottom: 0;
+    background-color: white;
+    z-index: 9999;
+    border: 0;
+    font-size: 1em;
+    line-height: 1.42857143 !important;
+    letter-spacing: 1.2px;
+    border-radius: 0;
+}
+
+.catMenu {
+     background-image: linear-gradient(to right, #00bcd2 , #62E6F5);
+    width: 100%;
+    color: white;
+    padding: 3px;
+    margin-top: 0px;
+    position: absolute;
+    margin-left: -15px;
+    padding-left: 45px;
+}
+
+.catMenu ul li {
+    float: left;
+    padding: 5px 15px;
+    font-size: 1.1em;
+}
+.catMenu ul li a{
+    color: white;
+}
+
+
+/* Top Header ENDS  */

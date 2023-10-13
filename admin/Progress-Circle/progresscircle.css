@@ -1,0 +1,78 @@
+.circle-chart {
+  width: 130px;
+  height: 130px;
+  margin-left: 10px;
+}
+
+.circle-chart__circle {
+  stroke: #00acc1;
+  stroke-width: 2;
+  stroke-linecap: square;
+  fill: none;
+  animation: circle-chart-fill 2s reverse; /* 1 */ 
+  transform: rotate(-90deg); /* 2, 3 */
+  transform-origin: center; /* 4 */
+}
+.circle-chart__circle--negative {
+  transform: rotate(-90deg) scale(1,-1); /* 1, 2, 3 */
+}
+
+.circle-chart__background {
+  stroke: #EAEDED ;
+  stroke-width: 2;
+  fill: none; 
+}
+
+.circle-chart__info {
+  animation: circle-chart-appear 2s forwards;
+  opacity: 0;
+  transform: translateY(0.3em);
+}
+
+.circle-chart__percent {
+  alignment-baseline: central;
+  text-anchor: middle;
+  font-size: 7px;
+  color: white;
+}
+
+.circle-chart__subline {
+    alignment-baseline: central;
+    text-anchor: middle;
+    font-size: 3px;
+}
+
+.success-stroke {
+  stroke: green;
+}
+
+.warning-stroke {
+  stroke: #00bcd2 ;
+}
+
+.danger-stroke {
+  stroke: red;
+}
+
+  @keyframes circle-chart-fill {
+    to { stroke-dasharray: 0 100; }
+  }
+
+  @keyframes circle-chart-appear {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  body
+  {
+    animation-name:wrappers;
+    animation-duration: 0.5s;
+   
+  }
+  @keyframes wrappers {
+    from {opacity: 0;margin-top: 10px;}
+    to {opacity: 1;margin-top: 0px;}
+  }
+
+ 

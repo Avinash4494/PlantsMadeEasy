@@ -1,0 +1,344 @@
+/*TOP HEADER */
+
+.logoutFrame {
+
+    color: white;
+    float: right;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+.logoutFrame a {
+    text-decoration: none;
+    color: white;
+}
+
+.logoutFrame a:hover {
+    color: white;
+}
+
+.left-topHeading .profileCircleDrop img {
+    height: 45px;
+    width: 45px;
+    margin-top: 8px;
+    border-radius: 50%;
+}
+
+.right-topHeading {
+    color: white;
+}
+
+.right-topHeading h5 {
+    font-size: 1.1em;
+}
+
+.right-topHeading h6 {
+    font-size: 1.2em;
+    margin-top: -5px;
+}
+
+.nameString {
+    background-color: white;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    color: black;
+    margin-top: 13px;
+    padding-top: 8px;
+    padding-left: 8px;
+    letter-spacing: 2px;
+    margin-left: 50px;
+}
+
+.profileAnchor {
+    padding-top: 25px;
+}
+
+.profileAnchor h5 {
+    padding-left: 15px;
+}
+
+.profileAnchor a {
+    color: white;
+    text-decoration: none;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.profileAnchor .editProfile {
+    padding-bottom: 15px;
+}
+
+.profileAnchor .editProfile:hover a {
+    color: #00B8E0;
+}
+
+.profileAnchor .logout {
+    background-color: #1C2833;
+    padding: 3px;
+    overflow: hidden;
+}
+
+.profileAnchor .logout:hover {
+    background-color: #00bcd2;
+    color: white;
+    transition: 0.5s;
+}
+
+.profileAnchor .logout:hover a {
+    color: white;
+    transition: 0.5s;
+}
+
+/*TOP HEADER*/
+
+/*PAGGINATION PANNEL*/
+.dataTables_wrapper select,
+.dataTables_wrapper input,
+.dataTables_wrapper label {
+    font-size: 0.9em;
+    font-weight: normal;
+    margin: 0;
+}
+
+.dataTables_wrapper select,
+.dataTables_wrapper input {
+    margin: 5px 0 -20px 0px;
+    padding: 5px;
+}
+
+.dataTables_wrapper>div {
+    float: left;
+    margin: 0 0 15px 15px
+}
+
+.dataTables_wrapper>div+div {
+    float: right;
+    margin: 0 15px 15px 0;
+}
+
+.dataTables_info {
+    font-size: 0.5;
+}
+
+.datatable-pagination {
+    float: right;
+}
+
+.datatable-pagination>a {
+
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    cursor: pointer;
+    margin-top: -20px;
+    line-height: 20px;
+    color: white;
+    background-color: #00BCD2;
+    padding: 2px 8px;
+    text-align: center;
+    text-decoration: none !important;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+}
+
+.datatable-pagination>a+a {
+    margin-left: -1px
+}
+
+.datatable-pagination>a:first-child {
+    -webkit-border-top-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-bottom-left-radius: 3px
+}
+
+.datatable-pagination>a:last-child {
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -moz-border-radius-bottomright: 3px;
+    border-bottom-right-radius: 3px
+}
+
+.datatable-pagination>a:hover {
+    background-color: #00BCD2;
+}
+
+.datatable-pagination>a.paginate_disabled_previous,
+.datatable-pagination>a.paginate_disabled_next {
+
+    cursor: default
+}
+
+.datatable-pagination>a.paginate_disabled_previous i,
+.datatable-pagination>a.paginate_disabled_next i {
+    opacity: .5;
+    filter: alpha(opacity=50)
+}
+
+.datatable-pagination>a span {
+    display: none
+}
+
+.tablePannel table {
+    margin-bottom: 10px;
+}
+
+.tablePannel table tr {
+    margin: 2px;
+}
+
+.tablePannel table th {
+    font-size: 0.9em;
+}
+
+.tablePannel table td {
+    font-size: 0.9em;
+}
+
+/*PAGGINATION PANNEL*/
+
+/*BUTTONS*/
+.buttonTimes {
+    background-color: red;
+    border-radius: 5px;
+    padding: 0px 15px;
+    border: 1px solid red;
+    color: white;
+}
+
+.buttonCheck {
+    background-color: orange;
+    border-radius: 5px;
+    padding: 0px 15px;
+    border: 1px solid orange;
+    color: white;
+}
+
+.buttonSuccess {
+    background-color: green;
+    border-radius: 5px;
+    padding: 0px 15px;
+    border: 1px solid green;
+    color: white;
+}
+
+.buttonInsert {
+    background-color: #00BCD2;
+    border-radius: 5px;
+    padding: 7px 25px;
+    border: 1px solid #00BCD2;
+    color: white;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.buttonDownload {
+    background-color: #00BCD2;
+    border-radius: 0px;
+    padding: 3px 25px;
+    border: 1px solid #00BCD2;
+    color: white;
+    font-size: 0.5em;
+    letter-spacing: 1px;
+
+
+}
+
+/*BUTTONS*/
+
+/*SIDE BAR*/
+
+/*SIDE BAR*/
+
+/*PAGES PRODUCT*/
+
+.counterWell .well {
+    background-color: #00BCD2;
+    padding: 0px;
+    border-radius: 0px;
+    margin-bottom: 5px;
+
+}
+
+a .counterWell .well {
+    color: white;
+}
+
+.counterWell .well h5 {
+    padding-left: 10px;
+    letter-spacing: 1px;
+    margin: 0px;
+    padding-top: 5px;
+    font-size: 0.7em;
+}
+
+.counterWell .well span {
+    font-size: 1em;
+    float: right;
+    padding-right: 10px;
+    padding-top: 0px;
+}
+
+.wrapperComp {
+    background-color: #EAEDED;
+    height: 565px;
+}
+
+.bodyContent {
+
+    padding-top: 25px;
+}
+
+.sideContent .well {
+    background-color: white;
+    border-radius: 0px;
+    padding: 0px;
+    border: none;
+}
+
+.moduleHead {
+    background-color: #00bdc2;
+    color: white;
+    padding: 7px 10px;
+}
+
+.moduleHead h3 {
+    margin: 0px;
+    font-size: 1em;
+}
+
+
+
+.formPannel {
+    padding: 5px 15px;
+}
+
+.controlLabel {
+    padding: 10px 5px 5px 5px;
+    margin-bottom: 0px;
+}
+
+.moduleAdd {
+    padding: 10px 25px;
+    margin-bottom: -20px;
+}
+
+.moduleAdd .well {
+    padding: 0px 10px;
+    border-radius: 10px;
+    background-color: #EAEDED;
+}
+
+.formPannel label {
+    font-size: 1em;
+    font-weight: normal;
+}
+.formPannel input {
+    border:1px solid #00bcd2;
+}
+/*INSERT PRODUCT*/
